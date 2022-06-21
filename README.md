@@ -1,6 +1,6 @@
 # DataBetweenComponents
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+A simple Angular project with passing data between components in traditional ways.
 
 ## Development server
 
