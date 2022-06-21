@@ -11,8 +11,10 @@ export class AppComponent {
   funnySentences: string[] = [];
 
   addFunnySentence(){
-    this.funnySentences.push(this.currentSentence);
-    this.currentSentence = '';
+    if(this.currentSentence !== '') {
+      this.funnySentences.push(this.currentSentence);
+      this.currentSentence = '';
+    }
   }
 
   onSentenceDeleted(deletedSentence: string) {
